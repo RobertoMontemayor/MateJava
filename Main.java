@@ -21,7 +21,7 @@ class Main{
       System.out.println(x+" x "+y+" = "+(x*y));
    }
    public static void suma(int x, int y){
-       System.out.println(x+" x "+y+" = "+(x+y)); 
+       System.out.println(x+" + "+y+" = "+(x+y)); 
    }
    public static void division(int x, int y){
        System.out.println(x+" / "+y+" = "+(x/y)); 
