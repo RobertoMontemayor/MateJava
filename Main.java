@@ -9,11 +9,15 @@ class Main{
                multiplicacion(Lectura.readInt("Ingresa un numero"),Lectura.readInt("Ingresa otro numero") );
                break;
             case 2:
+               suma(Lectura.readInt("Ingresa un numero"),Lectura.readInt("Ingresa otro numero"));
                break;
          }
       }
    }
    public static void multiplicacion(int x, int y){
-         System.out.println(x+" x "+y+" = "+(x*y));
+      System.out.println(x+" x "+y+" = "+(x*y));
+   }
+   public static void suma(int x, int y){
+       System.out.println(x+" x "+y+" = "+(x+y)); 
    }
 }
